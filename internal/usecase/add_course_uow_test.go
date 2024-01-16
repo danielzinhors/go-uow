@@ -5,9 +5,9 @@ import (
 	"database/sql"
 	"testing"
 
-	"github.com/devfullcycle/goexpert/18-UOW/internal/db"
-	"github.com/devfullcycle/goexpert/18-UOW/internal/repository"
-	"github.com/devfullcycle/goexpert/18-UOW/pkg/uow"
+	"github.com/danielzinhors/go-uow/internal/db"
+	"github.com/danielzinhors/go-uow/internal/repository"
+	"github.com/danielzinhors/go-uow/pkg/uow"
 	"github.com/stretchr/testify/assert"
 
 	_ "github.com/go-sql-driver/mysql"

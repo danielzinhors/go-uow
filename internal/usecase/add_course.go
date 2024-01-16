@@ -3,8 +3,8 @@ package usecase
 import (
 	"context"
 
-	"github.com/devfullcycle/goexpert/18-UOW/internal/entity"
-	"github.com/devfullcycle/goexpert/18-UOW/internal/repository"
+	"github.com/danielzinhors/go-uow/internal/entity"
+	"github.com/danielzinhors/go-uow/internal/repository"
 )
 
 type InputUseCase struct {
