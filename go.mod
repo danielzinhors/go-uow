@@ -1,10 +1,11 @@
-module github.com/devfullcycle/goexpert/18-UOW
+module github.com/danielzinhors/go-uow.git
 
-go 1.19
+go 1.21.1
 
 require (
-	github.com/go-sql-driver/mysql v1.7.0
-	github.com/stretchr/testify v1.8.1
+	github.com/devfullcycle/goexpert/18-UOW v0.0.0-20230119231004-178c8dded7cd
+	github.com/go-sql-driver/mysql v1.7.1
+	github.com/stretchr/testify v1.8.4
 )
 
 require (
